@@ -1,0 +1,23 @@
+// first log in mongodb atlas then make cluster and make detabse and connect that refer thap video
+// code to connect mongodb atlas
+
+const mongoose = require("mongoose");
+const DB = 'mongodb+srv://Ashu:Moni@cluster0.md7yj5q.mongodb.net/dogdetails?retryWrites=true&w=majority';
+app.use(express.json);
+const conectionParams = {
+    useNewUrlParser: true,
+    useUnifiedTopology:true
+
+}
+mongoose.connect(DB,conectionParams).then(() => {
+    console.log('detabase is connected')
+}).catch((error) => {
+    console.log(error)
+});
+
+step2: npm i express nodemon body-parser
+
+
+
+//   What is Middelware
+whenever you have to do some work in middle like before rendering any other page
