@@ -20,10 +20,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish252-del/MentyTalk_Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ashish252-del/MentyTalk_Backend/issues"
+  },
+  "homepage": "https://github.com/Ashish252-del/MentyTalk_Backend#readme",
   "description": ""
 }
