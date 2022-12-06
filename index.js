@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const cookieParser = require("cookie-Parser");
+const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 app.use(express.json());
 require('./db/coneection'); // connectiong detabse
